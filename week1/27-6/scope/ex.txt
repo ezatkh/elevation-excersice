@@ -1,0 +1,111 @@
+ex1
+What will console log?
+running (8 times)
+Finished running 8 miles
+distance not defined -error
+
+Will there be an error?
+yes
+Why?
+because distance is define in the if statement block and use outside this block , finally the error appears because it defines by let key
+Will something be undefined?
+no
+Why?
+because it didnt use var when defined the identifiers
+
+To what scope does each variable belong?
+run -global 
+distance- local -if statement scope 
+------------------------------------------------------------------------------------------------------------------
+ex2
+What will console log?
+cowSound not defined -error
+
+Will there be an error?
+yes
+Why?
+because cowSound is define in the if statement block and use outside this block , finally the error appears because it defines by let key
+
+Will something be undefined?
+no
+
+Why?
+because it didnt use var when defined the identifiers
+
+To what scope does each variable belong?
+cowSound: local -if statement scope 
+------------------------------------------------------------------------------------------------------------
+ex3
+What will console log?
+served a special orders fish
+served a special orders lettuce plate
+served a special orders curious cheese
+Finished serving all the orders: fish,lettuce plate,curious cheese 
+
+Will there be an error?
+no
+Why?
+
+Will something be undefined?
+no
+Why?
+
+To what scope does each variable belong?
+
+serveOrders: global
+order :local:for loop scope
+specialOrder :local:for loop scope
+allOrders:global
+------------------------------------------------------------------------------------------------------------
+ex4
+What will console log?
+error 
+
+Will there be an error?
+yes
+Why?
+const seed is not defied in the scope of plant function 
+Will something be undefined?
+no
+Why?
+
+To what scope does each variable belong?
+seed: local: function scope
+pot: global
+getSeed  :global
+plant:global
+------------------------------------------------------------------------------------------------------------
+ex5
+What will console log?
+error 
+
+Will there be an error?
+yes
+Why?
+const found is not defied , their scope is the is stmt scope 
+Will something be undefined?
+no
+Why?
+
+To what scope does each variable belong?
+users :global 
+doesUserExist : local: function scope
+u :global:for loop scope 
+found if stmt scope
+userExists :global
+------------------------------------------------------------------------------------------------------------
+ex6
+What will console log?
+error 
+
+Will there be an error?
+yes
+Why?
+they cannot to assign to constant value after initialize  
+Will something be undefined?
+no
+Why?
+
+To what scope does each variable belong?
+isEnough :global 
+makeEnough  :global 
