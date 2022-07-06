@@ -1,0 +1,33 @@
+{
+"name" : "cow",
+"weight" {
+"kilograms"::1800  ,
+"tons":1400
+ } ,
+"live":"cowshed" ,
+"endangered": false,
+"foods":[
+{
+"name":"corn",
+"percentage": "60%" 
+},
+{
+"name":"silage",
+"percentage": "40%" 
+},
+"animals":["wolves","tigers"],
+"delicious":5
+}
+strings:name,live
+numbers: kilograms,tons,delicious
+boolean:endangered
+objects:wight
+arrays:food,animals
+
+
+
+-----------
+follow up 
+1- yes , i deleted the doubles qutes  from the boolean values
+2-no
+3-
