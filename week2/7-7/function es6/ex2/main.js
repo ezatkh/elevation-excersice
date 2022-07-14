@@ -233,9 +233,7 @@ let users=[
 
   let print = (user) => console.log(user)
 
-  const result=users
-  .map(user=>{ return{
-    Email: user.email,
-    company: user.company.name }})
-  .forEach(print=>console.log(print));
+   const result=users
+   .filter(user=> user.address.zipcode[0]==5)
+   .forEach(print=>console.log(print));
   

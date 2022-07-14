@@ -234,8 +234,7 @@ let users=[
   let print = (user) => console.log(user)
 
   const result=users
-  .map(user=>{ return{
-    Email: user.email,
-    company: user.company.name }})
+  .filter(user=>user.address.suite==="Apt. 950")
+  .map(user=>user.company.name)
   .forEach(print=>console.log(print));
   
